@@ -2,16 +2,22 @@ pokebolas {
     free=true
 	cooldownSeconds=43200
     name="&aPokebolas Crate"
-	hologram {
-        entityYOffset=0.0
-        lines=[
-            "&aPOKE",
-            "&cBALLS"
-        ]
-    }
     slots=[
         {
-            chance=35.0
+            chance=10.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:healer"
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=30.0
             displayItem {
                 count=20
                 damage=0
@@ -25,7 +31,7 @@ pokebolas {
             ]
         },
         {
-            chance=25.0
+            chance=20.0
             displayItem {
                 count=15
                 damage=0

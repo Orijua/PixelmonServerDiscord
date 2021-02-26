@@ -310,3 +310,21 @@ No data is available [2000-196]
 2021-02-26 08:04:50 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: No hay datos disponibles.
 No data is available [2000-196]
+2021-02-26 17:06:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: No hay datos disponibles.
+No data is available [2000-196]
+2021-02-26 17:06:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: No hay datos disponibles.
+No data is available [2000-196]
+2021-02-26 17:15:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: No hay datos disponibles.
+No data is available [2000-196]
+2021-02-26 17:15:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: No hay datos disponibles.
+No data is available [2000-196]
+2021-02-26 17:17:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: No hay datos disponibles.
+No data is available [2000-196]
+2021-02-26 17:17:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: No hay datos disponibles.
+No data is available [2000-196]

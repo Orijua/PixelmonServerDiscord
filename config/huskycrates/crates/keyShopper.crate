@@ -1,0 +1,60 @@
+keyShopper {
+    free=false
+    hologram {
+        entityYOffset=0.0
+        lines=[
+            "&akeyShopper",
+            "&aCrate"
+        ]
+    }
+    localKey {
+        id="minecraft:tripwire_hook"
+        name="&akeyShopper Crate Key"
+    }
+    messages {
+        rejectionNeedKey="&cYou lack the key needed to open this crate!"
+    }
+    name=keyShopper
+    previewable=true
+    slots=[
+        {
+            chance=10
+            displayItem{
+                count=1
+                id="minecraft:tripwire_hook"
+                lore=[
+                    "&cKeys Key!"
+                ]
+            }
+            rewards=[
+                {
+                    type="servercommand"
+                    data="hc key v keyShopper %p 1"
+                }
+            ]
+        },
+        {
+            chance=10
+            displayItem{
+                count=1
+                id="minecraft:tripwire_hook"
+                lore=[
+                    "&eKeys pero para que se vea Key!"
+                ]
+            }
+            rewards=[
+                {
+                    type="servercommand"
+                    data="hc key v keyShopper %p 1"
+                }
+            ]
+        }
+    ]
+    useLocalKey=true
+    viewConfig {
+        tickDelayMultiplier=1.025
+        ticksToSelection=75
+        ticksToSelectionVariance=5
+    }
+    viewType=spinner
+}
