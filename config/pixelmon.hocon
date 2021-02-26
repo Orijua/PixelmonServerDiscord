@@ -46,7 +46,7 @@ ExternalFiles {
     # Load external configuration files used for moves from the "pixelmon/moves" folder. If set to true and the "pixelmon/moves" folder does not exist, Pixelmon will create the folder and dump the existing files there.
     useExternalJSONFilesMoves=false
     # Load external configuration files used for NPCs from the "pixelmon/npcs" folder. If set to true and the "pixelmon/npcs" folder does not exist, Pixelmon will create the folder and dump the existing files there.
-    useExternalJSONFilesNPCs=false
+    useExternalJSONFilesNPCs=true
     # Load external configuration files used for quests from the "pixelmon/quests" folder. If set to true and the "pixelmon/quests" folder does not exist, Pixelmon will create the folder and dump the existing files there.
     useExternalJSONFilesQuests=false
     # Load external configuration files used for battle rules from the "pixelmon/rules" folder. If set to true and the "pixelmon/rules" folder does not exist, Pixelmon will create the folder and dump the existing files there.
