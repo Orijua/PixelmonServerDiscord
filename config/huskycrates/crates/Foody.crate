@@ -1,22 +1,29 @@
-pokebolas {
+Foody {
     free=true
-	cooldownSeconds=43200
-    name="&aPokebolas Crate"
-	hologram {
+	cooldownSeconds=7200
+    hologram {
         entityYOffset=0.0
         lines=[
-            "&aPOKE",
-            "&cBALLS"
+            "&aFoody",
+            "&aCrate"
         ]
     }
+    localKey {
+        id="minecraft:tripwire_hook"
+        name="&aFoody Crate Key"
+    }
+    messages {
+        rejectionNeedKey="&cYou lack the key needed to open this crate!"
+    }
+    name=Foody
+    previewable=true
     slots=[
         {
-            chance=35.0
+            chance=10.0
             displayItem {
-                count=20
+                count=64
                 damage=0
-                durability=1000000
-                id="pixelmon:poke_ball"
+                id="minecraft:cooked_mutton"
             }
             rewards=[
                 {
@@ -25,12 +32,11 @@ pokebolas {
             ]
         },
         {
-            chance=25.0
+            chance=10.0
             displayItem {
-                count=15
+                count=64
                 damage=0
-                durability=1000000
-                id="pixelmon:great_ball"
+                id="minecraft:cooked_rabbit"
             }
             rewards=[
                 {
@@ -39,12 +45,11 @@ pokebolas {
             ]
         },
         {
-            chance=5.0
+            chance=10.0
             displayItem {
-                count=10
+                count=64
                 damage=0
-                durability=1000000
-                id="pixelmon:ultra_ball"
+                id="minecraft:cooked_chicken"
             }
             rewards=[
                 {
@@ -53,12 +58,11 @@ pokebolas {
             ]
         },
         {
-            chance=1.5
+            chance=10.0
             displayItem {
-                count=1
+                count=64
                 damage=0
-                durability=1000000
-                id="pixelmon:master_ball"
+                id="minecraft:pumpkin_pie"
             }
             rewards=[
                 {
@@ -67,12 +71,11 @@ pokebolas {
             ]
         },
         {
-            chance=10
+            chance=10.0
             displayItem {
-                count=10
+                count=64
                 damage=0
-                durability=1000000
-                id="pixelmon:level_ball"
+                id="minecraft:baked_potato"
             }
             rewards=[
                 {
@@ -81,12 +84,11 @@ pokebolas {
             ]
         },
         {
-            chance=13
+            chance=10.0
             displayItem {
-                count=10
+                count=64
                 damage=0
-                durability=1000000
-                id="pixelmon:quick_ball"
+                id="minecraft:cooked_beef"
             }
             rewards=[
                 {
@@ -95,12 +97,11 @@ pokebolas {
             ]
         },
         {
-            chance=0.5
+            chance=10.0
             displayItem {
-                count=1
+                count=64
                 damage=0
-                durability=1000000
-                id="pixelmon:gs_ball"
+                id="minecraft:cooked_fish"
             }
             rewards=[
                 {
@@ -109,12 +110,24 @@ pokebolas {
             ]
         },
         {
-            chance=10
+            chance=10.0
             displayItem {
-                count=10
+                count=64
+                damage=1
+                id="minecraft:cooked_fish"
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=64
                 damage=0
-                durability=1000000
-                id="pixelmon:luxury_ball"
+                id="minecraft:cooked_porkchop"
             }
             rewards=[
                 {
